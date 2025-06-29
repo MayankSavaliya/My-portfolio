@@ -53,7 +53,7 @@ export function ContactForm() {
         form.reset();
         toast({
           title: "Message sent successfully!",
-          description: "Thank you for reaching out. I'll get back to you soon.",
+          description: "Thank you for reaching out. I&apos;ll get back to you soon.",
         });
       } else {
         throw new Error("Failed to send message");
@@ -81,7 +81,7 @@ export function ContactForm() {
             <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
             <h3 className="text-2xl font-bold mb-2">Thank You!</h3>
             <p className="text-muted-foreground mb-4">
-              Your message has been sent successfully. I'll get back to you soon!
+              Your message has been sent successfully. I&apos;ll get back to you soon!
             </p>
             <Button onClick={() => setIsSubmitted(false)} variant="outline">
               Send Another Message
@@ -174,4 +174,4 @@ export function ContactForm() {
       </div>
     </motion.div>
   );
-} 
+}

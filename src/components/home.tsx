@@ -328,7 +328,7 @@ export default function Home() {
               className="space-y-6"
             >
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate Computer Science student at Nirma University, deeply immersed in 
+                I&apos;m a passionate Computer Science student at Nirma University, deeply immersed in 
                 competitive programming and algorithmic problem-solving.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -741,7 +741,7 @@ export default function Home() {
               <div className="w-12 h-1 bg-gradient-to-l from-transparent to-purple-500 ml-4"></div>
             </div>
             <h2 className="text-5xl font-bold gradient-text mb-4">Get In Touch</h2>
-            <p className="text-muted-foreground text-lg">Let's create something amazing together</p>
+            <p className="text-muted-foreground text-lg">Let&apos;s create something amazing together</p>
           </motion.div>
           
           <div className="grid md:grid-cols-2 gap-12">
@@ -753,9 +753,9 @@ export default function Home() {
               className="space-y-8"
             >
               <div>
-                <h3 className="text-2xl font-bold mb-6">Let's Connect!</h3>
+                <h3 className="text-2xl font-bold mb-6">Let&apos;s Connect!</h3>
                 <p className="text-lg text-muted-foreground mb-6">
-                  I'm always interested in new opportunities, collaborations, and discussions about technology, competitive programming, and software development.
+                  I&apos;m always interested in new opportunities, collaborations, and discussions about technology, competitive programming, and software development.
                 </p>
               </div>
 
@@ -848,4 +848,4 @@ export default function Home() {
       </footer>
     </div>
   );
-} 
+}
